@@ -2,9 +2,16 @@
 
 This command line app lets you compare an Rdio library with a local iTunes library xml file.  This let's you see what albums you have on Rdio that you do not own a copy of in iTunes.
 
-## Install dependencies
+## Install Dependencies
 
 	bundle install
+
+## Setup Rdio Credentials
+
+Sign up for a developer account at http://developer.rdio.com/ and apply for an API key.  Then, add your key and 
+shared secret to the credentials file and rename it:
+
+	mv rdio_consumer_credentials_EXAMPLE.rb rdio_consumer_credentials.rb
 
 ## Run
 
